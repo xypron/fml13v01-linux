@@ -272,8 +272,8 @@ endif
 # global .NOTINTERMEDIATE does not work. We can use it on Make > 4.4.
 # Use .SECONDARY for older Make versions, but "newer-prereq" cannot detect
 # deleted files.
-ifneq ($(and $(filter notintermediate, $(.FEATURES)),$(filter-out 4.4,$(MAKE_VERSION))),)
-.NOTINTERMEDIATE:
-else
+# ifneq ($(and $(filter notintermediate, $(.FEATURES)),$(filter-out 4.4,$(MAKE_VERSION))),)
+# .NOTINTERMEDIATE:
+# else
 .SECONDARY:
-endif
+# endif
