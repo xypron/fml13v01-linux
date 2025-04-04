@@ -1,3 +1,15 @@
+linux-fml13v01 (6.6.20-2.0ubuntu1) noble; urgency=medium
+
+  * Enable bridge networking
+
+ -- Heinrich Schuchardt <heinrich.schuchardt@canonical.com>  Mon, 07 Apr 2025 14:09:17 +0200
+
+linux-fml13v01 (6.6.20-1.1ubuntu4) noble; urgency=medium
+
+  * Enable overlay file-system
+
+ -- Heinrich Schuchardt <heinrich.schuchardt@canonical.com>  Fri, 04 Apr 2025 13:48:15 +0200
+
 linux-fml13v01 (6.6.20-1.1ubuntu3) noble; urgency=medium
 
   * Enable kernel compression
