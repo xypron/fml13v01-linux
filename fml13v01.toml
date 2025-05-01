@@ -1,3 +1,9 @@
+linux-fml13v01 (6.6.20-6.0ubuntu1) noble; urgency=medium
+
+  * Update configuration according to new upstream
+
+ -- Heinrich Schuchardt <heinrich.schuchardt@canonical.com>  Tue, 22 Apr 2025 13:54:01 +0200
+
 linux-fml13v01 (6.6.20-5.1ubuntu1) noble; urgency=medium
 
   * Update file system and crypto setting
